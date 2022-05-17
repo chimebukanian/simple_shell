@@ -1,1 +1,1 @@
-starting now
+coding a shell using the C programming language
