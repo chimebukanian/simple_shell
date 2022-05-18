@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * main- entry point to the shell
+ * main- main entry point to the shell
  * @argc: number of arguments
  * @argv: entered arguments to the CL
  * @env: environment variable
