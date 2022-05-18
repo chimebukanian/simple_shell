@@ -1,6 +1,6 @@
 #include "GATEOFSHELL.h"
 /**
- * shell_loop - loop functions that runs the shell
+ * shell_loop - loop function running the shell
  * @env: environment variable
  * Return: status of the proccess or 1 in error
  */

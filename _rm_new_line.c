@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * rm_new_line - removes the new line with null character
+ * rm_new_line - function removes new line with null character
  * @string: the argumments passed in the CL
  * Return: void
  */
