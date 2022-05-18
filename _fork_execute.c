@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 /**
- * forkwaitexec - executes the commands passed
- * @args: commands passed in CL
+ * forkwaitexec - performs the execution of the commands passed
+ * @args: commands passed in CLI
  * @status: receiving the status true or false statement
  * @count: variable that counts the commands passed
  * @stad_exit: integer static
