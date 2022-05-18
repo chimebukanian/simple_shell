@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * _memcpy - copy memory area
+ * _memcpy - copies the memory area
  * @dest: memory area dest
  * @src: memory area src
  * @n: Copies n bytes

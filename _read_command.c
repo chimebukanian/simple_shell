@@ -1,6 +1,6 @@
 #include "GATEOFSHELL.h"
 /**
- * read_command - read a line from stdin
+ * read_command - reads line from stdin
  * @env: the argument passed
  * Description: first we print the command prompt
  * then we read the command from standar input

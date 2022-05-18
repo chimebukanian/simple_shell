@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * _parser - function to allocate memory and tokenize
+ * _parser - allocates memory and tokenize
  * @string: the argument passed  saved on getline
  * Return: double pointer
  */

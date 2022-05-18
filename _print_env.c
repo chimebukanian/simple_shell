@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * printenv - prints the environment
+ * printenv - function prints the environment
  * @env: environment variable
  * @stad_exit: exit
  * Return: Always 0 in success. Otherwise 1.
@@ -20,7 +20,7 @@ int printenv(char **env, int *stad_exit)
 	return (0);
 }
 /**
- *  print_string - auxiliar function to print each linea of env
+ *  print_string - function to print each linea of env
  * @env: environment variable passed from printenv
  * Return: void
  */
