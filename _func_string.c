@@ -1,6 +1,6 @@
 #include "GATEOFSHELL.h"
 /**
- * _strlen - function return length of string
+ * _strlen - finds and return length of string
  * @s: String
  *
  * Return: length of string
@@ -74,7 +74,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _strdup - returns a pointer to a newly allocated space in memory
+ * _strdup - returns a pointer to a newly allocated memory
  * @str: character
  *
  * Return: a pointer to a new string which is a duplicate of the string
