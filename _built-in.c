@@ -1,6 +1,6 @@
 #include "GATEOFSHELL.h"
 /**
- * built_in - compare argv passed with the builtins commands
+ * built_in - compare the passed argv with builtins commands
  * @string: pointer with the line saved
  * @argv: the arguments passed
  * @env: environment variable
