@@ -11,7 +11,7 @@ char **find_path(char **environ)
 	char *get_path, **tokens, *delim;
 
 	delim = ":";
-	get_path = _getenv(environ, "PATH");
-	tokens = splits(get_path, delim);
+	get_path = get_env(environ, "PATH");
+	tokens = split(get_path, delim);
 	return (tokens);
 }

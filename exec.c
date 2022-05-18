@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * execute - execute commands.
+ * exec - execute commands.
  * @parse: a char array of pointers.
  * Return: Always 0.
  */
 
-int execute(char **parse)
+int exec(char **parse)
 {
 	pid_t pid;
 	int status;

@@ -35,13 +35,13 @@ int compare(char *varname, char *dirname)
 }
 
 /**
- * _getenv - the function that gets the path.
+ * get_env - the function that gets the path.
  * @environ: the global variable.
  * @dirname: is a character.
  * Return: should return final or null.
  */
 
-char *_getenv(char **environ, char *dirname)
+char *get_env(char **environ, char *dirname)
 {
 	int k, j;
 	char *varname, *final;

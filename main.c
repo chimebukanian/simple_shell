@@ -21,11 +21,11 @@ int main(int argc, char **argv, char **environ)
 	signal(SIGINT, SIG_IGN);
 	while (1)
 	{
-		line = read_line();
-		argv = splits(line, delim);
-		command = args_path(argv, tokens);
+		line = readline();
+		argv = split(line, delim);
+		command = arg_path(argv, tokens);
 		if (command == NULL)
-			execute(argv);
+			exec(argv);
 		free(line);
 		free(argv);
 		free(command);

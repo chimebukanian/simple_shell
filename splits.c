@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _realloc - reallocate memory.
+ * reallocate - reallocate memory.
  * @ptr: void variable pointer.
  * @old_size: int.
  * @new_size: an integer.
  * Return: Null.
  */
 
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+void *reallocate(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 
 	char *new;
@@ -45,13 +45,13 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * splits - the function that create tokens.
+ * split - the function that create tokens.
  * @line: a char.
  * @delim: is a character.
  * Return: double pointer.
  */
 
-char **splits(char *line, char *delim)
+char **split(char *line, char *delim)
 {
 	char **pptoken;
 	int buf = 1024, i = 0;
@@ -68,7 +68,7 @@ char **splits(char *line, char *delim)
 		if (i >= buf)
 		{
 			buf += buf;
-			pptoken = _realloc(pptoken, buf, buf * (sizeof(char *)));
+			pptoken = reallocate(pptoken, buf, buf * (sizeof(char *)));
 			if (!pptoken)
 				exit(98);
 		}

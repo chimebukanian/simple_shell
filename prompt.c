@@ -5,7 +5,7 @@
  * Return: line.
  */
 
-char *read_line(void)
+char *readline(void)
 {
 	char *line = NULL;
 	size_t size = 0;

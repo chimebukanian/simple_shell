@@ -22,13 +22,13 @@ char *_strcat(char *dest, char *src)
 }
 
 /**
- * args_path - this concatenates the arguments.
+ * arg_path - this concatenates the arguments.
  * @parse: is a char.
  * @new: is a character.
  * Return: total or null.
  */
 
-char *args_path(char **parse, char **new)
+char *arg_path(char **parse, char **new)
 {
 	char *total, **cat;
 	int i, j, k;
@@ -43,7 +43,7 @@ char *args_path(char **parse, char **new)
 
 		if (stat(total, &status) == 0)
 		{
-			for (k = 0; parse[k] != '\0'; k++)
+			for (k = 0; *parse[k] != '\0'; k++)
 				;
 			cat = malloc(sizeof(char *) * (k + 1));
 			cat[k] = NULL;
@@ -51,7 +51,7 @@ char *args_path(char **parse, char **new)
 
 			for (j = 1; parse[j]; j++)
 				cat[j] = _strdup(parse[j]);
-			execute(cat);
+			exec(cat);
 			return (total);
 		}
 		free(total);
