@@ -1,7 +1,7 @@
 #include "GATEOFSHELL.h"
 
 /**
- * sighandler - function that handles keyboard interrupt signals
+ * sighandler - handles keyboard interrupt signals
  *@sig: the signal
  */
 void sighandler(int sig)
